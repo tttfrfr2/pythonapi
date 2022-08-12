@@ -1,6 +1,6 @@
 # openapi_client.PkgCpeApi
 
-All URIs are relative to *http://rest.vuls.biz*
+All URIs are relative to *http://rest.2119e7c929.vuls.biz*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -30,10 +30,10 @@ from openapi_client.api import pkg_cpe_api
 from openapi_client.model.pkg_cpe_add_cpe_response_body import PkgCpeAddCpeResponseBody
 from openapi_client.model.pkg_cpe_add_cpe_request_body import PkgCpeAddCpeRequestBody
 from pprint import pprint
-# Defining the host is optional and defaults to http://rest.vuls.biz
+# Defining the host is optional and defaults to http://rest.2119e7c929.vuls.biz
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "http://rest.vuls.biz"
+    host = "http://rest.2119e7c929.vuls.biz"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -122,10 +122,10 @@ import time
 import openapi_client
 from openapi_client.api import pkg_cpe_api
 from pprint import pprint
-# Defining the host is optional and defaults to http://rest.vuls.biz
+# Defining the host is optional and defaults to http://rest.2119e7c929.vuls.biz
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "http://rest.vuls.biz"
+    host = "http://rest.2119e7c929.vuls.biz"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -209,10 +209,10 @@ import openapi_client
 from openapi_client.api import pkg_cpe_api
 from openapi_client.model.pkg_cpe_delete_cpe_deprecated_request_body import PkgCpeDeleteCpeDeprecatedRequestBody
 from pprint import pprint
-# Defining the host is optional and defaults to http://rest.vuls.biz
+# Defining the host is optional and defaults to http://rest.2119e7c929.vuls.biz
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "http://rest.vuls.biz"
+    host = "http://rest.2119e7c929.vuls.biz"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -231,7 +231,7 @@ with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = pkg_cpe_api.PkgCpeApi(api_client)
     delete_cpe_deprecated_request_body = PkgCpeDeleteCpeDeprecatedRequestBody(
-        cpe_id=4046142736569201742,
+        cpe_id=4046142736569201700,
     ) # PkgCpeDeleteCpeDeprecatedRequestBody | 
     authorization = "Authorization_example" # str | api key auth (optional)
 
@@ -298,10 +298,10 @@ import openapi_client
 from openapi_client.api import pkg_cpe_api
 from openapi_client.model.pkg_cpe_get_cpe_detail_response_body import PkgCpeGetCpeDetailResponseBody
 from pprint import pprint
-# Defining the host is optional and defaults to http://rest.vuls.biz
+# Defining the host is optional and defaults to http://rest.2119e7c929.vuls.biz
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "http://rest.vuls.biz"
+    host = "http://rest.2119e7c929.vuls.biz"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -387,10 +387,10 @@ import openapi_client
 from openapi_client.api import pkg_cpe_api
 from openapi_client.model.pkg_cpe_get_pkg_cpe_list_response_body import PkgCpeGetPkgCpeListResponseBody
 from pprint import pprint
-# Defining the host is optional and defaults to http://rest.vuls.biz
+# Defining the host is optional and defaults to http://rest.2119e7c929.vuls.biz
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "http://rest.vuls.biz"
+    host = "http://rest.2119e7c929.vuls.biz"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -480,10 +480,10 @@ import openapi_client
 from openapi_client.api import pkg_cpe_api
 from openapi_client.model.pkg_cpe_get_pkg_detail_response_body import PkgCpeGetPkgDetailResponseBody
 from pprint import pprint
-# Defining the host is optional and defaults to http://rest.vuls.biz
+# Defining the host is optional and defaults to http://rest.2119e7c929.vuls.biz
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "http://rest.vuls.biz"
+    host = "http://rest.2119e7c929.vuls.biz"
 )
 
 # The client must configure the authentication and authorization parameters
