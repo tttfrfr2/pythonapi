@@ -1,6 +1,6 @@
 # openapi_client.HealthApi
 
-All URIs are relative to *http://https://rest.2119e7c929.vuls.biz*
+All URIs are relative to *http://https://rest.vuls.biz*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -22,10 +22,10 @@ import time
 import openapi_client
 from openapi_client.api import health_api
 from pprint import pprint
-# Defining the host is optional and defaults to http://https://rest.2119e7c929.vuls.biz
+# Defining the host is optional and defaults to http://https://rest.vuls.biz
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "http://https://rest.2119e7c929.vuls.biz"
+    host = "http://https://rest.vuls.biz"
 )
 
 
