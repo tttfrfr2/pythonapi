@@ -1,6 +1,6 @@
 # openapi_client.CveApi
 
-All URIs are relative to *http://rest.2119e7c929.vuls.biz*
+All URIs are relative to *http://https://rest.2119e7c929.vuls.biz*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -25,10 +25,10 @@ import openapi_client
 from openapi_client.api import cve_api
 from openapi_client.model.cve_get_cve_detail_response_body import CveGetCveDetailResponseBody
 from pprint import pprint
-# Defining the host is optional and defaults to http://rest.2119e7c929.vuls.biz
+# Defining the host is optional and defaults to http://https://rest.2119e7c929.vuls.biz
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "http://rest.2119e7c929.vuls.biz"
+    host = "http://https://rest.2119e7c929.vuls.biz"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -114,10 +114,10 @@ import openapi_client
 from openapi_client.api import cve_api
 from openapi_client.model.cve_get_cve_list_response_body import CveGetCveListResponseBody
 from pprint import pprint
-# Defining the host is optional and defaults to http://rest.2119e7c929.vuls.biz
+# Defining the host is optional and defaults to http://https://rest.2119e7c929.vuls.biz
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "http://rest.2119e7c929.vuls.biz"
+    host = "http://https://rest.2119e7c929.vuls.biz"
 )
 
 # The client must configure the authentication and authorization parameters

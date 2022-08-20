@@ -53,10 +53,10 @@ from pprint import pprint
 from openapi_client.api import cve_api
 from openapi_client.model.cve_get_cve_detail_response_body import CveGetCveDetailResponseBody
 from openapi_client.model.cve_get_cve_list_response_body import CveGetCveListResponseBody
-# Defining the host is optional and defaults to http://rest.2119e7c929.vuls.biz
+# Defining the host is optional and defaults to http://https://rest.2119e7c929.vuls.biz
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "http://rest.2119e7c929.vuls.biz"
+    host = "http://https://rest.2119e7c929.vuls.biz"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -88,7 +88,7 @@ with openapi_client.ApiClient(configuration) as api_client:
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *http://rest.2119e7c929.vuls.biz*
+All URIs are relative to *http://https://rest.2119e7c929.vuls.biz*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
