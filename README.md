@@ -18,9 +18,9 @@ Python >=3.6
 If the python package is hosted on a repository, you can install directly using:
 
 ```sh
-pip install git+https://github.com/tttfrfr2/pythonapi.git
+pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
 ```
-(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/tttfrfr2/pythonapi.git`)
+(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git`)
 
 Then import the package:
 ```python
@@ -53,10 +53,10 @@ from pprint import pprint
 from openapi_client.api import cve_api
 from openapi_client.model.cve_get_cve_detail_response_body import CveGetCveDetailResponseBody
 from openapi_client.model.cve_get_cve_list_response_body import CveGetCveListResponseBody
-# Defining the host is optional and defaults to http://rest.2119e7c929.vuls.biz
+# Defining the host is optional and defaults to http://rest.vuls.biz
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "http://rest.2119e7c929.vuls.biz"
+    host = "http://rest.vuls.biz"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -88,7 +88,7 @@ with openapi_client.ApiClient(configuration) as api_client:
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *http://rest.2119e7c929.vuls.biz*
+All URIs are relative to *http://rest.vuls.biz*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------

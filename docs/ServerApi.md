@@ -1,6 +1,6 @@
 # openapi_client.ServerApi
 
-All URIs are relative to *http://rest.2119e7c929.vuls.biz*
+All URIs are relative to *http://rest.vuls.biz*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -31,10 +31,10 @@ from openapi_client.api import server_api
 from openapi_client.model.server_create_pkg_paste_server_response_body import ServerCreatePkgPasteServerResponseBody
 from openapi_client.model.server_create_pkg_paste_server_request_body import ServerCreatePkgPasteServerRequestBody
 from pprint import pprint
-# Defining the host is optional and defaults to http://rest.2119e7c929.vuls.biz
+# Defining the host is optional and defaults to http://rest.vuls.biz
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "http://rest.2119e7c929.vuls.biz"
+    host = "http://rest.vuls.biz"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -126,10 +126,10 @@ import time
 import openapi_client
 from openapi_client.api import server_api
 from pprint import pprint
-# Defining the host is optional and defaults to http://rest.2119e7c929.vuls.biz
+# Defining the host is optional and defaults to http://rest.vuls.biz
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "http://rest.2119e7c929.vuls.biz"
+    host = "http://rest.vuls.biz"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -213,10 +213,10 @@ import openapi_client
 from openapi_client.api import server_api
 from openapi_client.model.server_get_server_detail_response_body import ServerGetServerDetailResponseBody
 from pprint import pprint
-# Defining the host is optional and defaults to http://rest.2119e7c929.vuls.biz
+# Defining the host is optional and defaults to http://rest.vuls.biz
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "http://rest.2119e7c929.vuls.biz"
+    host = "http://rest.vuls.biz"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -302,10 +302,10 @@ import openapi_client
 from openapi_client.api import server_api
 from openapi_client.model.server_get_server_detail_by_uuid_response_body import ServerGetServerDetailByUUIDResponseBody
 from pprint import pprint
-# Defining the host is optional and defaults to http://rest.2119e7c929.vuls.biz
+# Defining the host is optional and defaults to http://rest.vuls.biz
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "http://rest.2119e7c929.vuls.biz"
+    host = "http://rest.vuls.biz"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -391,10 +391,10 @@ import openapi_client
 from openapi_client.api import server_api
 from openapi_client.model.server_get_server_list_response_body import ServerGetServerListResponseBody
 from pprint import pprint
-# Defining the host is optional and defaults to http://rest.2119e7c929.vuls.biz
+# Defining the host is optional and defaults to http://rest.vuls.biz
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "http://rest.2119e7c929.vuls.biz"
+    host = "http://rest.vuls.biz"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -482,10 +482,10 @@ import openapi_client
 from openapi_client.api import server_api
 from openapi_client.model.server_update_pkg_paste_server_request_body import ServerUpdatePkgPasteServerRequestBody
 from pprint import pprint
-# Defining the host is optional and defaults to http://rest.2119e7c929.vuls.biz
+# Defining the host is optional and defaults to http://rest.vuls.biz
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "http://rest.2119e7c929.vuls.biz"
+    host = "http://rest.vuls.biz"
 )
 
 # The client must configure the authentication and authorization parameters
@@ -577,10 +577,10 @@ from openapi_client.api import server_api
 from openapi_client.model.server_update_server_request_body import ServerUpdateServerRequestBody
 from openapi_client.model.server_update_server_response_body import ServerUpdateServerResponseBody
 from pprint import pprint
-# Defining the host is optional and defaults to http://rest.2119e7c929.vuls.biz
+# Defining the host is optional and defaults to http://rest.vuls.biz
 # See configuration.py for a list of all supported configuration parameters.
 configuration = openapi_client.Configuration(
-    host = "http://rest.2119e7c929.vuls.biz"
+    host = "http://rest.vuls.biz"
 )
 
 # The client must configure the authentication and authorization parameters
